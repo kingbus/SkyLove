@@ -36,6 +36,13 @@
 	"CompZoomFactor":"100",
 	"StageZoomFactor":"75",
 	"expanded:images/img_1.jpg":"nil",
+	"viewStartY":"0",
+	"pixelsPerMs":"0.2",
+	"usedBOM":"false",
+	"nextElementColorIndex":"6",
+	"stage-Default Timeline_playhead_ms":"2500",
+	"pref__general__FilterNonAnimatedElements":"false",
+	"pref__general__AutoKeyframeProperties":"true",
 	"ModelData":"{\
 \"stage\": {\
    \"timelines\": {\
@@ -50,11 +57,4 @@
    \"timelines\": {\
 \
    }}\
-}",
-	"pref__general__AutoKeyframeProperties":"true",
-	"usedBOM":"false",
-	"nextElementColorIndex":"6",
-	"stage-Default Timeline_playhead_ms":"2250",
-	"pref__general__FilterNonAnimatedElements":"false",
-	"pixelsPerMs":"0.2",
-	"viewStartY":"0"}
+}"}

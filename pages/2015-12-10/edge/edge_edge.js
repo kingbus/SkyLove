@@ -22,8 +22,8 @@
                 version: "6.0.0",
                 minimumCompatibleVersion: "5.0.0",
                 build: "6.0.0.400",
-                scaleToFit: "none",
-                centerStage: "none",
+                scaleToFit: "width",
+                centerStage: "horizontal",
                 resizeInstances: false,
                 content: {
                     dom: [
@@ -64,7 +64,7 @@
                     style: {
                         '${Stage}': {
                             isStage: true,
-                            rect: [undefined, undefined, '800px', '600px'],
+                            rect: ['null', 'null', '800px', '600px', 'auto', 'auto'],
                             overflow: 'hidden',
                             fill: ["rgba(255,255,255,1)"]
                         }
@@ -85,14 +85,14 @@
                             '255px'
                         ],
                         [
-                            "eid18",
-                            "top",
+                            "eid22",
+                            "filter.blur",
                             2000,
-                            500,
+                            250,
                             "easeOutQuint",
-                            "${Text2}",
-                            '600px',
-                            '481px'
+                            "${TextCopy}",
+                            '5px',
+                            '0px'
                         ],
                         [
                             "eid20",
@@ -105,14 +105,14 @@
                             '0px'
                         ],
                         [
-                            "eid22",
-                            "filter.blur",
+                            "eid18",
+                            "top",
                             2000,
-                            250,
+                            500,
                             "easeOutQuint",
-                            "${TextCopy}",
-                            '5px',
-                            '0px'
+                            "${Text2}",
+                            '600px',
+                            '481px'
                         ],
                         [
                             "eid14",

@@ -13,6 +13,14 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    (function(symbolName) {
       
       
+      Symbol.bindElementAction(compId, symbolName, "${img_1}", "touchend", function(sym, e) {
+         // insert code to be run when a user stops touching an object (for touch devices only)
+         sym.play();
+         
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
